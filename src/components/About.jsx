@@ -36,7 +36,7 @@ export default function About() {
               User-controlled data means individuals and communities retain full ownership and
               control over their consented health and behavioral signals. This privacy-first
               architecture turns community insights into faster, richer real-world evidence for
-              partners like Pfizer and Publicis.
+              partners like Tier1 Pharma and leading health enterprises.
             </p>
           </div>
 

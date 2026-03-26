@@ -37,7 +37,7 @@ export default function VendorDashboard() {
             <h3 className="text-sosia-gold font-bold text-xl mb-6">The Platform</h3>
             <p className="text-white/60 mb-6 leading-relaxed">
               Built on Brazil's 55.5% Black or mixed-race population and genetic diversity for
-              unmatched phenotype data — powering Pfizer-level metabolic health outcomes.
+              unmatched phenotype data — powering Tier1 Pharma-level metabolic health outcomes.
             </p>
             <div className="grid grid-cols-2 gap-4">
               {[
@@ -64,7 +64,7 @@ export default function VendorDashboard() {
               { icon: '💊', label: 'Pharmaceutical', sub: 'Clinical trials & market access' },
               { icon: '🏥', label: 'Insurance', sub: 'Risk modeling & underwriting' },
               { icon: '👨‍⚕️', label: 'Providers', sub: 'Care delivery optimization' },
-              { icon: '🏢', label: 'GWS / Publicis', sub: 'Media & brand intelligence' },
+              { icon: '🏢', label: 'GWS / Media', sub: 'Media & brand intelligence' },
             ].map((v, i) => (
               <div
                 key={i}

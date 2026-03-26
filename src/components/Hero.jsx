@@ -14,7 +14,7 @@ export default function Hero() {
         {/* Eyebrow */}
         <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-8">
           <span className="w-2 h-2 rounded-full bg-sosia-coral animate-pulse" />
-          <span className="text-white/80 text-sm font-medium">Pfizer Strategic Vendor Demo</span>
+          <span className="text-white/80 text-sm font-medium">Tier1 Pharma Strategic Vendor Demo</span>
         </div>
 
         {/* Headline */}
@@ -26,7 +26,7 @@ export default function Hero() {
         {/* Subheadline */}
         <p className="text-white/70 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
           Brazil's 4.3 million active influencers and 8 in 10 creator-trusted buyers power
-          Pfizer-level metabolic health outcomes.
+          Tier1 Pharma-level metabolic health outcomes.
         </p>
 
         {/* CTA buttons */}

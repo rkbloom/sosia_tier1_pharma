@@ -15,7 +15,7 @@ export default function CTASection() {
             <span className="text-gradient-gold">Pilot Today</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto mb-10">
-            Join Pfizer, Publicis, and leading pharmaceutical companies leveraging Brazil's most
+            Join Tier1 Pharma and leading pharmaceutical companies leveraging Brazil's most
             powerful consented creator community for real-world evidence.
           </p>
 
