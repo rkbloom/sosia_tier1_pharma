@@ -49,12 +49,18 @@ export default function Hero() {
         <div className="relative w-full max-w-4xl overflow-hidden rounded-2xl">
           <div className="flex gap-3 justify-center">
             {[
-              'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=200&h=250&fit=crop&crop=face',
-              'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&h=250&fit=crop&crop=face',
-              'https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200&h=250&fit=crop&crop=face',
-              'https://images.unsplash.com/photo-1548372290-8d01b6c8e78c?w=200&h=250&fit=crop&crop=face',
-              'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=250&fit=crop&crop=face',
-              'https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=200&h=250&fit=crop&crop=face',
+              // Young woman — natural afro, earrings
+              'https://images.unsplash.com/photo-1713845784494-33f5d1f96d25?w=200&h=250&fit=crop&crop=face',
+              // Young woman — afro, large earrings
+              'https://images.unsplash.com/photo-1713845784497-fe3d7ed176d8?w=200&h=250&fit=crop&crop=face',
+              // Young woman — afro, pearl necklace
+              'https://images.unsplash.com/photo-1712821125604-4ca6b1f86488?w=200&h=250&fit=crop&crop=face',
+              // Mid-age woman — smiling, afro
+              'https://images.unsplash.com/photo-1737599819881-df2553a821ad?w=200&h=250&fit=crop&crop=face',
+              // Mid-age woman — freckled complexion
+              'https://images.unsplash.com/photo-1697551458746-b86ccf5049d4?w=200&h=250&fit=crop&crop=face',
+              // Elder woman — profile, window light
+              'https://images.unsplash.com/photo-1759405186191-f312aa61bd40?w=200&h=250&fit=crop&crop=face',
             ].map((src, i) => (
               <div
                 key={i}
@@ -63,7 +69,7 @@ export default function Hero() {
               >
                 <img
                   src={src}
-                  alt={`Community member ${i + 1}`}
+                  alt={`Afro-Brazilian community member ${i + 1}`}
                   className="w-full h-40 object-cover"
                 />
               </div>
