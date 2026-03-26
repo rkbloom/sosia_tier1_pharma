@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: 'What outcomes can we expect from using this service?',
-    a: 'Clients typically see improved efficiency, cost savings, and enhanced data security within the first quarter of implementation. Pharma partners specifically benefit from faster trial enrollment, richer phenotypic diversity, and launch-ready real-world evidence packages.',
+    a: 'Clients typically see improved efficiency, cost savings, and enhanced data security within 120 days of implementation. Pharma partners specifically benefit from faster trial enrollment, richer phenotypic diversity, and launch-ready real-world evidence packages.',
   },
   {
     q: 'Is there a long-term commitment required?',

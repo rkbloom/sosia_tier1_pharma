@@ -51,12 +51,12 @@ export default function Hero() {
             {[
               // Young — smiling, earrings, natural hair
               'https://images.unsplash.com/photo-1744040866609-2b8952159e1e?w=200&h=250&fit=crop&crop=face',
-              // Young adult — curly hair, flower, bright energy
-              'https://images.unsplash.com/photo-1645784673448-1d68467aa306?w=200&h=250&fit=crop&crop=face',
+              // Young Brazilian man — yellow hoodie, warm smile
+              'https://images.unsplash.com/photo-1710357956769-232ef8e9e1aa?w=200&h=250&fit=crop&crop=face',
               // 30s — modern, warm smile, outdoor
               'https://images.unsplash.com/photo-1707305531814-6749e9e7da29?w=200&h=250&fit=crop&crop=face',
-              // Mid 30s–40s — full afro, pearl necklace, smiling
-              'https://images.unsplash.com/photo-1712821125604-4ca6b1f86488?w=200&h=250&fit=crop&crop=face',
+              // Middle-aged Brazilian man — mustachioed, warm portrait (Retrato de Vitor em Camburi das Pedras)
+              'https://images.unsplash.com/photo-1694185749841-b501fc75faa9?w=200&h=250&fit=crop&crop=face',
               // 40s–50s — dreadlocks, smiling, color portrait
               'https://images.unsplash.com/photo-1645736353780-e70a7d508088?w=200&h=250&fit=crop&crop=face',
               // Elder — smiling broadly, warm and joyful

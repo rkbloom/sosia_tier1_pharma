@@ -4,12 +4,9 @@ export default function VendorDashboard() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sosia-coral text-sm font-semibold uppercase tracking-widest mb-3">
-            Long-Term Partnership
-          </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight max-w-3xl mx-auto">
-            Your Long-Term Vendor for{' '}
-            <span className="text-gradient-gold">Health Equity and Performance</span>
+            Infrastructure Partnerships —{' '}
+            <span className="text-gradient-gold">Your Strategic Vendor for Health Equity and Performance</span>
           </h2>
         </div>
 
@@ -19,14 +16,14 @@ export default function VendorDashboard() {
           <div className="bg-sosia-slate/40 border border-white/10 rounded-2xl p-10">
             <div className="text-sosia-gold text-5xl font-black mb-6 leading-none">"</div>
             <blockquote className="text-white text-xl font-medium leading-relaxed mb-6">
-              For 20+ years I've built brands by the community — Sosia is that vision in AI
+              Building brand & consumer loyalty from targeted consent and community owned health data — Sosia is that vision in AI
             </blockquote>
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-full bg-sosia-gold/20 flex items-center justify-center text-sosia-gold font-bold">
-                AW
+                AR
               </div>
               <div>
-                <p className="text-white font-semibold">Aaron Walton</p>
+                <p className="text-white font-semibold">Arian Roman</p>
                 <p className="text-white/50 text-sm">Founder &amp; CEO, Sosia Systems Inc.</p>
               </div>
             </div>
@@ -64,7 +61,7 @@ export default function VendorDashboard() {
               { icon: '💊', label: 'Pharmaceutical', sub: 'Clinical trials & market access' },
               { icon: '🏥', label: 'Insurance', sub: 'Risk modeling & underwriting' },
               { icon: '👨‍⚕️', label: 'Providers', sub: 'Care delivery optimization' },
-              { icon: '🏢', label: 'GWS / Media', sub: 'Media & brand intelligence' },
+              { icon: '🏢', label: 'GWS / Agency', sub: 'Media & brand intelligence' },
             ].map((v, i) => (
               <div
                 key={i}
@@ -80,30 +77,30 @@ export default function VendorDashboard() {
 
         {/* Leadership row */}
         <div className="bg-sosia-slate/30 border border-white/10 rounded-2xl p-8">
-          <h3 className="text-white font-bold text-xl mb-6 text-center">Leadership</h3>
-          <div className="grid md:grid-cols-2 gap-6">
+          <h3 className="text-white font-bold text-2xl mb-2 text-center">Meet the Visionaries Behind Our Mission</h3>
+          <div className="grid md:grid-cols-2 gap-8 mt-8">
             {[
               {
-                initials: 'AW',
-                name: 'Aaron Walton',
+                initials: 'AR',
+                name: 'Arian Roman',
                 role: 'Founder & CEO',
-                detail: 'LGPD Compliant · Consent-First by Design · 20+ years brand-building in multicultural markets',
+                bio: 'MIT-trained entrepreneur and award-winning innovator, Arian Roman leads the creation of next-generation health and wellness platforms. As founder of Pistil, Alysida Health, and Pivital Holdings, he merges science, design, and community impact to build technologies that empower women\'s health and underserved populations. His mission: make advanced, AI-driven health innovation accessible and meaningful for all.',
               },
               {
-                initials: 'SS',
-                name: 'Sosia Systems Team',
-                role: 'Engineering & Data Science',
-                detail: "LGPD Compliant · Consent-First by Design · Builders of Brazil's largest consented creator network",
+                initials: 'TL',
+                name: 'Tracy Lauren',
+                role: 'Head of Engineering',
+                bio: 'A former Amazon Software Development Manager with 20 years in tech leadership, Tracy Lauren builds the AI-driven platforms behind the future of health. She\'s led large engineering teams, architected enterprise-scale systems, and pioneered secure, scalable data infrastructures. Her work turns complex technology into real-world health breakthroughs.',
               },
             ].map((l, i) => (
-              <div key={i} className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-sosia-coral/20 flex items-center justify-center text-sosia-coral font-bold flex-shrink-0">
+              <div key={i} className="flex gap-5 items-start">
+                <div className="w-14 h-14 rounded-full bg-sosia-coral/20 flex items-center justify-center text-sosia-coral font-bold text-lg flex-shrink-0">
                   {l.initials}
                 </div>
                 <div>
-                  <p className="text-white font-semibold">{l.name}</p>
-                  <p className="text-sosia-gold text-sm">{l.role}</p>
-                  <p className="text-white/40 text-xs mt-1">{l.detail}</p>
+                  <p className="text-white font-bold text-lg">{l.name}</p>
+                  <p className="text-sosia-gold text-sm mb-2">{l.role}</p>
+                  <p className="text-white/55 text-sm leading-relaxed">{l.bio}</p>
                 </div>
               </div>
             ))}
