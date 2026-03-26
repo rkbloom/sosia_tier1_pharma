@@ -49,18 +49,18 @@ export default function Hero() {
         <div className="relative w-full max-w-4xl overflow-hidden rounded-2xl">
           <div className="flex gap-3 justify-center">
             {[
-              // Young woman — natural afro, earrings
-              'https://images.unsplash.com/photo-1713845784494-33f5d1f96d25?w=200&h=250&fit=crop&crop=face',
-              // Young woman — afro, large earrings
-              'https://images.unsplash.com/photo-1713845784497-fe3d7ed176d8?w=200&h=250&fit=crop&crop=face',
-              // Young woman — afro, pearl necklace
+              // Young — smiling, earrings, natural hair
+              'https://images.unsplash.com/photo-1744040866609-2b8952159e1e?w=200&h=250&fit=crop&crop=face',
+              // Young adult — curly hair, flower, bright energy
+              'https://images.unsplash.com/photo-1645784673448-1d68467aa306?w=200&h=250&fit=crop&crop=face',
+              // 30s — modern, warm smile, outdoor
+              'https://images.unsplash.com/photo-1707305531814-6749e9e7da29?w=200&h=250&fit=crop&crop=face',
+              // Mid 30s–40s — full afro, pearl necklace, smiling
               'https://images.unsplash.com/photo-1712821125604-4ca6b1f86488?w=200&h=250&fit=crop&crop=face',
-              // Mid-age woman — smiling, afro
-              'https://images.unsplash.com/photo-1737599819881-df2553a821ad?w=200&h=250&fit=crop&crop=face',
-              // Mid-age woman — freckled complexion
-              'https://images.unsplash.com/photo-1697551458746-b86ccf5049d4?w=200&h=250&fit=crop&crop=face',
-              // Elder woman — profile, window light
-              'https://images.unsplash.com/photo-1759405186191-f312aa61bd40?w=200&h=250&fit=crop&crop=face',
+              // 40s–50s — dreadlocks, smiling, color portrait
+              'https://images.unsplash.com/photo-1645736353780-e70a7d508088?w=200&h=250&fit=crop&crop=face',
+              // Elder — smiling broadly, warm and joyful
+              'https://images.unsplash.com/photo-1752084794888-0b27a762b6fd?w=200&h=250&fit=crop&crop=face',
             ].map((src, i) => (
               <div
                 key={i}
@@ -69,7 +69,7 @@ export default function Hero() {
               >
                 <img
                   src={src}
-                  alt={`Afro-Brazilian community member ${i + 1}`}
+                  alt={`Brazilian community member ${i + 1}`}
                   className="w-full h-40 object-cover"
                 />
               </div>
