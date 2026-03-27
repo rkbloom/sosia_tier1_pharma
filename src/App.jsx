@@ -4,7 +4,9 @@ import Hero from './components/Hero'
 import StatsBar from './components/StatsBar'
 import StructuralAdvantage from './components/StructuralAdvantage'
 import HowItWorks from './components/HowItWorks'
-import PharmaVertical from './components/PharmaVertical'
+import MVPFit from './components/MVPFit'
+import PilotDesign from './components/PilotDesign'
+import PartnerRecommendation from './components/PartnerRecommendation'
 import VendorDashboard from './components/VendorDashboard'
 import CohortTestimonials from './components/CohortTestimonials'
 import About from './components/About'
@@ -20,7 +22,9 @@ function App() {
       <StatsBar />
       <StructuralAdvantage />
       <HowItWorks />
-      <PharmaVertical />
+      <MVPFit />
+      <PilotDesign />
+      <PartnerRecommendation />
       <VendorDashboard />
       <CohortTestimonials />
       <About />
