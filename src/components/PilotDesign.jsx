@@ -48,7 +48,7 @@ export default function PilotDesign() {
             <span className="text-sosia-gold">looks like</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl">
-            A narrow, unbranded women's obesity pilot gives partners an evidence-ready proof point over 6 months.
+            A narrow, unbranded women's obesity pilot gives Tier 1 Pharma an evidence-ready proof point over 6 months.
           </p>
         </div>
 

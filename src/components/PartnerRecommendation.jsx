@@ -2,13 +2,13 @@ export default function PartnerRecommendation() {
   const columns = [
     {
       num: '01',
-      title: 'Why this is buyable',
+      title: 'Why Now',
       body: 'Start with a narrow, unbranded scope that fits women\'s wellness behavior and avoids inflated claims. Build LGPD-safe consent, governance, and local diligence from day one.',
     },
     {
       num: '02',
       title: 'What gets measured',
-      body: 'Make success legible: creator-attributed efficiency, opt-in, retention, visible symptom movement, referral completion, and evidence packaging.',
+      body: 'Make success legible to Tier 1 Pharma: creator-attributed efficiency, opt-in, retention, visible symptom movement, referral completion, and evidence packaging.',
     },
     {
       num: '03',
@@ -27,8 +27,8 @@ export default function PartnerRecommendation() {
             Partner Recommendation
           </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
-            What strategic partners{' '}
-            <span className="text-sosia-gold">should recommend now</span>
+            What Sosia{' '}
+            <span className="text-sosia-gold">recommends now</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl">
             Frame Sosia as a scoped partner that can prove a new operating model — not just another content vendor.
