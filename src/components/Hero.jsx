@@ -59,8 +59,8 @@ export default function Hero() {
               'https://images.unsplash.com/photo-1694185749841-b501fc75faa9?w=200&h=250&fit=crop&crop=face',
               // 40s–50s — dreadlocks, smiling, color portrait
               'https://images.unsplash.com/photo-1645736353780-e70a7d508088?w=200&h=250&fit=crop&crop=face',
-              // Elder — smiling broadly, warm and joyful
-              'https://images.unsplash.com/photo-1752084794888-0b27a762b6fd?w=200&h=250&fit=crop&crop=face',
+              // Elder — grey hair, flower, radiant warm smile
+              'https://images.unsplash.com/photo-1565134367397-3d1f7af5f4ef?w=200&h=250&fit=crop&crop=face',
             ].map((src, i) => (
               <div
                 key={i}
