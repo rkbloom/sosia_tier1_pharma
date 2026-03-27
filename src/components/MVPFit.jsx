@@ -18,7 +18,7 @@ export default function MVPFit() {
     {
       num: '04',
       title: 'Measure',
-      body: '30/60/90-day change, adherence, referral, RWE',
+      body: '60/90/120-day change, adherence, referral, RWE',
     },
   ]
 
@@ -37,9 +37,6 @@ export default function MVPFit() {
 
         {/* Header */}
         <div className="mb-12">
-          <p className="text-sosia-coral text-sm font-semibold uppercase tracking-widest mb-3">
-            MVP Fit
-          </p>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
             Why obesity fits the{' '}
             <span className="text-sosia-gold">Sosia platform</span>
